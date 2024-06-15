@@ -156,6 +156,7 @@ html,body{
 }
 #over2 img{
  height: 3vw;
+ cursor: pointer;
  mix-blend-mode:difference;
  
 }
