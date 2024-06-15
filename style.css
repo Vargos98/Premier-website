@@ -131,5 +131,147 @@ html,body{
 }
 #over2 img{
  height: 3vw;
+ mix-blend-mode:difference;
  
 }
+#scroll{
+  height: 40vh;
+  width: 100%;
+  /* background-color: red; */
+  padding: 1vw;
+  white-space: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#container{
+  height: 120%;
+  width: 105%;
+  /* background-color: blue; */
+  display: inline-block;
+  padding: 2vw;
+  animation-name: scroll;
+  animation-duration: 10s;
+  animation-iteration-count:infinite;
+  animation-timing-function: linear;
+ 
+}
+#scroll img{
+  /* display: none; */
+  width: 15%;
+  margin: 1vw;
+  height: 90%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 30% 30%;
+  
+}
+
+@keyframes scroll {
+  from{
+    transform: translate(0);
+  }
+  to{
+    transform: translate(-100%);
+  }
+  
+}
+
+#alphabet{
+  height: 11vh;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+#alphabet h5{
+  font-size: 2vw;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-style: italic;
+  border-bottom: 2px solid black;
+  letter-spacing: 4px;
+  margin-right: 2vw;
+}
+#alphabet h6{
+  font-size: 1vw;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-style: italic;
+  /* background-color: yellow; */
+  letter-spacing: 4px;
+  padding: 0.5vw 0.7vw;
+  border-radius: 50%;
+  transition: all ease .3s;
+  cursor: pointer;
+}
+
+#alphabet h6:hover{
+  border: 1px solid black;
+
+
+}
+
+#page2{
+  height: 100%;
+  width: 100%;
+  background-color:#f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2vw 5vw;
+  position: relative;
+}
+
+#page2-part1{
+  height: 100%;
+  width: 50%;
+  background-image: url("https://images.unsplash.com/photo-1516726817505-f5ed825624d8?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+}
+#page2-part1 h1{
+  position: absolute;
+  bottom: -20px;
+  font-family: monument;
+  text-transform: uppercase;
+  
+}
+#page2-part2{
+  height: 100%;
+  width: 46%;
+
+}
+#page2-part2 img{
+  height: 70%;
+  width: 100%;
+  object-fit: cover;
+  position: center;
+}
+#writing{
+  margin: 20px 0px;
+  width: 100%;
+  height: 30%;
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: space-between;
+}
+#writing h3{
+  font-weight: 500;
+  font-size: 1.2vw;
+}
+#writing p{
+  font-size: 0.8vw;
+  font-weight: 500;
+}
+
+#page3{
+  background-color: #f8f8f8;
+  width: 100%;
+  height: 100%;
+}
+
+
