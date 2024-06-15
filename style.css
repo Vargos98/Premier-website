@@ -40,10 +40,30 @@ html,body{
    display: flex;
    align-items: center;
    justify-content: center;
-   font-family: monument;
-   font-size: 45px;
-   letter-spacing: -1px;
+   font-weight: 900;
 
+   /* font-family: monument; */
+   font-family: "Raleway", sans-serif;
+   font-size: 3.5vw;
+   letter-spacing: -6px;
+  position: relative;
+  cursor: pointer;
+}
+#nav sup{
+  position: absolute;
+  right: 55px;
+  top: 15px;
+  font-size: 30px ;
+}
+#nav sub{
+  position: absolute;
+  font-size: 0.6vw;
+  color:rgb(82, 81, 81);
+  font-weight: 500;
+  letter-spacing: 0.05vw;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  bottom: 14px;
+  right: 82px;
 }
 #nav h2{
    height: 100%;
@@ -55,6 +75,7 @@ html,body{
    border-right: 2px solid black;
    font-size: 26px;
    font-weight: 600;
+   cursor: pointer;
 
 }
 #nav h2:nth-last-child(2){
@@ -84,7 +105,7 @@ html,body{
  
 }
 #overlay{
-  height: 60%;
+  height: 70%;
   width: 100%;
   /* background-color: rgb(21, 207, 46); */
   position: absolute;
@@ -99,15 +120,15 @@ html,body{
 }
 
 #over1 h1{
-  font-family: monument;
-  font-size: 3.6vw;
-  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  font-size: 4.6vw;
+  font-weight: 1000;
   mix-blend-mode:difference;
 
 }
 #over1 h2{
   font-size: 1.4vw;
-  padding: 3.2vw 3.8vw;
+  padding: 5vw 5vw;
   /* background-color: blue; */
   border-radius: 50%;
   font-weight: 300;
@@ -236,7 +257,9 @@ html,body{
 #page2-part1 h1{
   position: absolute;
   bottom: -20px;
-  font-family: monument;
+  font-family: "Raleway", sans-serif;
+  font-weight: 1000;
+  letter-spacing: -2px;
   text-transform: uppercase;
   
 }
