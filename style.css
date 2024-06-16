@@ -485,12 +485,14 @@ html,body{
 {
   border-bottom: 2px solid black;
 }
-
+.elem:hover{
+  background: rgb(223, 223, 223);
+}
 .elem:hover img{
   opacity: 1;
   left: 24%;
 }
-.inter:hover{
+.elem:hover .inter{
   scale: 1.8;
 }
 .inter{
