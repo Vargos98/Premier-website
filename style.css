@@ -459,7 +459,8 @@ html,body{
   border-radius: 50%;
   left: 12%;
   opacity: 0;
-  transition: all ease-in 0.7s;
+  transition: all ease 0.5s;
+  object-fit: cover;
 }
 .elem h4{
   font-size: 1vw;
@@ -489,9 +490,13 @@ html,body{
   opacity: 1;
   left: 24%;
 }
+.inter:hover{
+  scale: 1.8;
+}
 .inter{
   position: absolute;
   left: 15%;
+  transition: all ease 0.5s;
 }
 .inter>h2{
   font-size: 2vw;
