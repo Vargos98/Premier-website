@@ -1186,7 +1186,7 @@ html,body{
     width: 100%;
     height: 100%;
     /* background-color: blue; */
-    margin-top: -120vw;
+    margin-top: -90vw;
     position: relative;
   }
   #one{
@@ -1227,13 +1227,11 @@ html,body{
   }
   #upper-half>h3{
     display: none;
-    margin-bottom: 7vh;
-    font-size: 2vw;
-    font-weight: 500;
+   
   }
   #upper-half>p{
     margin-top: 5vw;
-  
+    font-size: 4vw;
     font-weight: 400;
   }
   #lower-half{
@@ -1260,14 +1258,10 @@ html,body{
   }
   
   #R>img{
-    position: absolute;
-    height: 45%;
-    width: 50%;
-    left: 0;
+   
     display: none;
     /* padding: 10px 20px; */
-    object-fit: cover;
-    border: 2px solid black;
+   
   }
   #L>img{
     position: absolute;
@@ -1277,7 +1271,7 @@ html,body{
     width: 40%;
     object-fit: cover;
     border-radius: 30px;
-    object-position: top;
+    bottom: 120px;
   }
 
 
@@ -1288,9 +1282,64 @@ html,body{
   #page5{
     width: 100%;
     height: 45%;
-   /* background-color: red; */
     padding: 3vw 4vw;
-    margin-top: -30vw;
     position: relative;
+  }
+
+  #page6{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 5vw;
+    position: relative;
+  }
+  
+  #page6-part1{
+    height: 100%;
+    width: 50%;
+    background-image: url("http://www.malemodelscene.net/wp-content/uploads/2015/06/Sung-Jin-Park-Esquire-Korea-04-620x813.jpg");
+    background-size: cover;
+    background-position: top;
+    padding: 0.5vw 0.7vw;
+  }
+  #page6-part1 h1{
+    position: absolute;
+    bottom: -40px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 1000;
+    letter-spacing: -2px;
+    font-size: 3vw;
+    text-transform: uppercase;
+    
+  }
+  #page6-part2{
+    height: 100%;
+    width: 46%;
+  
+  }
+  #page6-part2 video{
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    position: center;
+  }
+  #writing{
+    margin: 20px 0px;
+    width: 100%;
+    height: 30%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+  }
+  #writing h3{
+    font-weight: 500;
+    font-size: 1.2vw;
+  }
+  #writing p{
+    font-size: 0.8vw;
+    font-weight: 500;
   }
 }
