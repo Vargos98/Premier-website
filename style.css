@@ -791,10 +791,7 @@ html,body{
 
 
 
-#footer{
-  height: 20%;
-  width: 100%;
-}
+
 
 
 
@@ -1293,4 +1290,42 @@ html,body{
     display: none;
    
   }
+
+
+
+  /* BLOG */
+
+  #blog{
+ 
+
+    height: 0%;
+    width: 0%;
+    padding: 4vw 3.8vw;
+    /* background-color: red; */
+    position: relative;
+    display: flex;
+  
+  }
+  
+  #blog>h1{
+    display: none;
+   
+    
+  }
+  #cover{
+    display: none;
+   
+  }
+  
+  #first{
+    display: none;
+   
+  }
+  
+  #first h3{
+    display: none;
+  
+  
+  }
+
 }
