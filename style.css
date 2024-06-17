@@ -1030,15 +1030,17 @@ html,body{
     
   }
   #writing h3{
+    display: none;
     font-weight: 500;
-    font-size: 3vw;
-    margin-left: 17px;
+    font-size: 12vw;
+    margin-left: 20px;
    
     /* margin-left: 30px; */
   }
   #writing p{
-    margin-right: 20px;
-    font-size: 2.2vw;
+    
+    margin-left: 20px;
+    font-size: 22vw;
     font-weight: 500;
   }
 
@@ -1264,14 +1266,8 @@ html,body{
    
   }
   #L>img{
-    position: absolute;
-    height: 35%;
-    padding: 10px 10px;
-    border: 3px solid black;
-    width: 40%;
-    object-fit: cover;
-    border-radius: 30px;
-    bottom: 0;
+    display: none;
+   
   }
 
 
@@ -1280,6 +1276,7 @@ html,body{
 
 
   #page5{
+    margin-top: -100vw;
     width: 100%;
     height: 45%;
     padding: 3vw 4vw;
@@ -1287,59 +1284,13 @@ html,body{
   }
 
   #page6{
+    display: none;
     height: 100%;
     width: 100%;
-    background-color:white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2vw 5vw;
-    position: relative;
-  }
-  
-  #page6-part1{
-    height: 100%;
-    width: 50%;
-    background-image: url("http://www.malemodelscene.net/wp-content/uploads/2015/06/Sung-Jin-Park-Esquire-Korea-04-620x813.jpg");
-    background-size: cover;
-    background-position: top;
-    padding: 0.5vw 0.7vw;
-  }
-  #page6-part1 h1{
-    position: absolute;
-    bottom: -40px;
-    font-family: "Raleway", sans-serif;
-    font-weight: 1000;
-    letter-spacing: -2px;
-    font-size: 3vw;
-    text-transform: uppercase;
-    
-  }
-  #page6-part2{
-    height: 100%;
-    width: 46%;
-  
-  }
-  #page6-part2 video{
-    height: 70%;
-    width: 100%;
-    object-fit: cover;
-    position: center;
-  }
-  #writing{
-    margin: 20px 0px;
-    width: 100%;
-    height: 30%;
-    /* background-color: yellow; */
-    display: flex;
-    justify-content: space-between;
-  }
-  #writing h3{
-    font-weight: 500;
-    font-size: 1.2vw;
+
   }
   #writing p{
-    font-size: 0.8vw;
-    font-weight: 500;
+    display: none;
+   
   }
 }
