@@ -1105,6 +1105,80 @@ html,body{
   
   /* UPDATES SECTION */
 
+  #updates{
+    width: 94%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 1vw 4vw;
+    position: relative;
+   
+  }
+  #updates>h1{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    letter-spacing: -2px;
+    font-size: 7vw;
+    text-transform: uppercase;
+    margin-top: -90px;
+    margin-left: -10px;
+    /* margin-bottom: 7vh; */
+   
   
+  }
+  
+  .elem{
+    height: 8vh;
+    width: 100%;
+    /* background-color: red; */
+   
+  }
+  .elem img{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    border-radius: 50%;
+    left: 12%;
+    opacity: 0;
+    transition: all ease 0.5s;
+    object-fit: cover;
+  }
+  .elem h4{
+    font-size: 1.5vw;
+    /* background: red; */
+  }
+  /* .elem .elem-part2{
+    width: 45%;
+  } */
+  .elem-part2 h1{
+    font-size: 3vw;
+    font-weight: 400;
+  }
+  .elem-part2 h5{
+    font-size: 1.2vw;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  .inter>h2{
+    font-size: 10px;
+
+  }
+  .inter>h3{
+    font-size: 1.2vw;
+  }
+  .elem:nth-last-child(1)
+  {
+    border-bottom: 2px solid black;
+  }
+  .elem:hover{
+    background: rgb(223, 223, 223);
+  }
+  .elem:hover img{
+    opacity: 1;
+    left: 24%;
+  }
+  .elem:hover .inter{
+    scale: 1.8;
+  }
 
 }
