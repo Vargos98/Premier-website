@@ -7,7 +7,7 @@ Behance Link: https://www.behance.net/gallery/97376811/Premier
 
 
 ## Overview
-This project is a replication of a design I found on [Pintrest & Behance ]((https://www.behance.net/gallery/97376811/Premier)) using HTML and CSS with a focus on CSS LFlexbox Layout. The purpose of this project is to practice and showcase my front-end development skills, particularly in creating responsive and visually appealing layouts.
+This project is a replication of a design I found on [Pintrest & Behance ]((https://www.behance.net/gallery/97376811/Premier)) using HTML and CSS with a focus on CSS Flexbox Layout. The purpose of this project is to practice and showcase my front-end development skills, particularly in creating responsive and visually appealing layouts.
 
 
 
